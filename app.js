@@ -14,7 +14,7 @@ commandInput.addEventListener("keypress", async (event) => {
 });
 
 async function fetchAIResponse(query) {
-    const response = await fetch('https://your-backend-api.com/ask', {
+    const response = await fetch('https://web-production-cd29.up.railway.app', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
